@@ -1,3 +1,7 @@
+@import url('https://fonts.cdnfonts.com/css/wolfers');
+p, a {
+  font-family: 'Wolfers', sans-serif !important;
+}
 .w-layout-grid {
   grid-row-gap: 16px;
   grid-column-gap: 16px;
@@ -1789,7 +1793,7 @@
   width: 42vw;
   color: #460f0f;
   text-transform: uppercase;
-  font-family: Ubuntu, Helvetica, sans-serif;
+  font-family: 'Wolfers', sans-serif;
   font-size: 6.5vw;
   font-weight: 700;
   line-height: 100%;
@@ -1908,7 +1912,7 @@
 .text-block-10 {
   color: #fff;
   margin-top: 2vw;
-  font-family: Montserrat, sans-serif;
+  font-family: 'Wolfers', sans-serif;
   font-size: 1.4vw;
   font-weight: 300;
   line-height: 150%;
@@ -1951,7 +1955,7 @@
   width: auto;
   color: #ff9d00;
   text-align: center;
-  font-family: Ubuntu, Helvetica, sans-serif;
+  font-family: 'Wolfers', sans-serif;
   font-size: 6vw;
   line-height: 100%;
 }
@@ -1959,7 +1963,7 @@
 .text-block-12 {
   color: #fff;
   margin-top: 2vw;
-  font-family: Ubuntu, Helvetica, sans-serif;
+  font-family: 'Wolfers', sans-serif;
   font-size: 2vw;
   font-weight: 700;
 }
@@ -1979,7 +1983,7 @@
   text-align: center;
   -webkit-text-stroke-color: #fff;
   margin-top: 2vw;
-  font-family: Ubuntu, Helvetica, sans-serif;
+  font-family: 'Wolfers', sans-serif;
   font-size: 2vw;
   line-height: 130%;
 }
@@ -2002,7 +2006,7 @@
 
 .text-block-14 {
   text-transform: uppercase;
-  font-family: Ubuntu, Helvetica, sans-serif;
+  font-family: 'Wolfers', sans-serif;
   font-size: 4vw;
   font-weight: 700;
   line-height: 100%;
