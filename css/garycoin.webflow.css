@@ -827,7 +827,7 @@
   text-align: center;
   letter-spacing: 1.5px;
   text-transform: uppercase;
-  background-color: rgb(227,101,80);
+  background-color: #FCCF74;
   border-radius: 8px;
   align-items: center;
   margin-top: 2vw;
@@ -1253,7 +1253,7 @@
 }
 
 .product-card-wrapper.purple-logo:hover {
-  box-shadow: 6px 6px 5rem 16px rgb(227,101,80);
+  box-shadow: 6px 6px 5rem 16px #FCCF74;
 }
 
 .product-card-wrapper.blue-gradient {
@@ -1270,7 +1270,7 @@
 }
 
 .product-card-wrapper.blue-gradient:hover {
-  box-shadow: 6px 6px 5rem 10px rgb(227,101,80);
+  box-shadow: 6px 6px 5rem 10px #FCCF74;
 }
 
 .product-card-wrapper.blue-gradient._2 {
@@ -2070,7 +2070,7 @@
 }
 
 .convert-wrapper.purple-logo:hover {
-  box-shadow: 6px 6px 5rem 16px rgb(227,101,80);
+  box-shadow: 6px 6px 5rem 16px #FCCF74;
 }
 
 .convert-wrapper.blue-gradient {
