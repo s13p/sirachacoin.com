@@ -825,7 +825,9 @@ p, a {
 }
 
 .product-tag {
-  width: 34vw;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
   height: 22vw;
   color: #000000;
   text-align: center;
