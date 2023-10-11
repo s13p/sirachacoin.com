@@ -568,7 +568,7 @@ p, a {
 }
 
 .button {
-  color: #16ceb9;
+  color: #F15B44;
   text-align: center;
   text-transform: uppercase;
   background-color: rgba(22, 206, 185, .08);
@@ -585,7 +585,7 @@ p, a {
 
 .button.nav-cta:hover {
   color: #030309;
-  background-color: #16ceb9;
+  background-color: #F15B44;
 }
 
 .button.nav-cta._2 {
@@ -615,9 +615,9 @@ p, a {
 }
 
 .button.white {
-  color: #fff;
+  color: #000000;
   background-color: rgba(0, 0, 0, 0);
-  border: 2px solid #fff;
+  border: 1px solid #000000;
 }
 
 .button.white.hero-margin {
@@ -626,8 +626,8 @@ p, a {
 }
 
 .button.white.hero-margin:hover {
-  color: #030309;
-  background-color: #fff;
+  color: #ffffff;
+  background-color: #000000;
 }
 
 .button.white.hero-margin.pointer-events-auto._2 {
@@ -827,7 +827,7 @@ p, a {
 .product-tag {
   width: 34vw;
   height: 22vw;
-  color: #fff;
+  color: #000000;
   text-align: center;
   letter-spacing: 1.5px;
   text-transform: uppercase;
@@ -1051,7 +1051,7 @@ p, a {
 .mission-section-row.full-width {
   width: 100%;
   max-width: 100%;
-  color: #16ceb9;
+  color: #F15B44;
 }
 
 .progress-wrapper {
@@ -1379,7 +1379,7 @@ p, a {
 
 .investor-card:hover {
   background-color: rgba(252, 10, 84, .07);
-  border: 2px solid #fc0a54;
+  border: 2px solid #F15B44;
   box-shadow: 1px 1px 80px 4px rgba(252, 10, 84, .3);
 }
 
@@ -1429,7 +1429,7 @@ p, a {
 }
 
 .product-info-text.figure.red {
-  color: #fc0a54;
+  color: #F15B44;
   margin-top: 1vw;
   font-size: 1.9rem;
   line-height: 100%;
@@ -1486,7 +1486,7 @@ p, a {
 .div-block-11 {
   width: 51vw;
   min-height: 3vw;
-  border: 2px solid #00dd71;
+  border: 2px solid #F15B44;
   border-radius: 10px;
   align-items: center;
   margin-left: auto;
@@ -1647,9 +1647,9 @@ p, a {
 }
 
 .button-2 {
-  color: #232322;
+  color: #ffffff;
   text-align: center;
-  background-color: #eae6e0;
+  background-color: #000000;
   border-radius: .375rem;
   padding: .75rem 2rem;
   font-weight: 400;
@@ -1657,7 +1657,7 @@ p, a {
 }
 
 .button-2:hover {
-  background-color: #eae6e0;
+  background-color: #c0c0c0;
 }
 
 .padding-section-large {
