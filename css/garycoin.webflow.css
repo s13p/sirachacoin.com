@@ -84,9 +84,9 @@ p, a {
 .text-block {
   z-index: 2;
   opacity: 1;
-  color: #fff;
+  color: black;
   text-align: left;
-  -webkit-text-stroke-color: #fff;
+  -webkit-text-stroke-color: black;
   background-color: rgba(0, 0, 0, 0);
   font-size: 2vw;
   font-weight: 600;
@@ -95,7 +95,7 @@ p, a {
 }
 
 .heading {
-  color: #fff;
+  color: black;
   border: 4px #000;
   margin-top: 0;
   margin-bottom: 0;
@@ -183,7 +183,7 @@ p, a {
 .nav-menu {
   width: 40vw;
   min-height: 6vw;
-  background-color: #fff;
+  background-color: black;
   border-radius: 80px;
   align-items: center;
   display: flex;
@@ -228,7 +228,7 @@ p, a {
 }
 
 .link {
-  color: #fff;
+  color: black;
   margin-left: 2vw;
   font-size: 2vw;
   font-weight: 700;
@@ -276,7 +276,7 @@ p, a {
 }
 
 .text-block-3 {
-  color: #fff;
+  color: black;
 }
 
 .section-3 {
@@ -294,14 +294,14 @@ p, a {
 }
 
 .body {
-  color: #fff;
+  color: black;
   background-color: #ff481f;
   font-family: 'Wolfers', sans-serif;
   font-weight: 700;
 }
 
 .text-block-4 {
-  color: #fff;
+  color: black;
   text-align: center;
   text-transform: uppercase;
   font-size: 8.07292vw;
@@ -325,7 +325,7 @@ p, a {
 }
 
 .text-block-5 {
-  color: #fff;
+  color: black;
   margin-top: 0;
   font-size: 3vw;
   line-height: 100%;
@@ -347,7 +347,7 @@ p, a {
 }
 
 .text-block-5._3._4 {
-  color: #fff;
+  color: black;
   margin-top: 2vw;
   font-size: 4vw;
   font-weight: 700;
@@ -430,7 +430,7 @@ p, a {
 
 .text-block-6 {
   z-index: 2;
-  color: #fff;
+  color: black;
   text-align: center;
   margin-top: 1vw;
   margin-left: auto;
@@ -488,7 +488,7 @@ p, a {
   height: 4.5rem;
   -webkit-backdrop-filter: blur(40px);
   backdrop-filter: blur(40px);
-  background-color: rgba(0, 0, 0, 0);
+  background-color: #F15B44;
   border-bottom: 1px solid #1c1c22;
   flex-direction: row;
   justify-content: space-between;
@@ -508,12 +508,12 @@ p, a {
 }
 
 .nav-link-2:hover {
-  color: #fff;
+  color: black;
 }
 
 .dropdown-toggle {
   opacity: .48;
-  color: #fff;
+  color: black;
   border-radius: 8px;
   padding: .75rem 2.5rem .75rem 1rem;
   font-size: .875rem;
@@ -556,7 +556,7 @@ p, a {
 }
 
 .dropdown-link:hover {
-  color: #fff;
+  color: black;
 }
 
 .dropdown-link.smaller {
@@ -568,7 +568,7 @@ p, a {
 }
 
 .button {
-  color: #F15B44;
+  color: #0000008d;
   text-align: center;
   text-transform: uppercase;
   background-color: rgba(22, 206, 185, .08);
@@ -584,8 +584,8 @@ p, a {
 }
 
 .button.nav-cta:hover {
-  color: #030309;
-  background-color: #F15B44;
+  color: #ffffff;
+  background-color: #000000;
 }
 
 .button.nav-cta._2 {
@@ -595,7 +595,7 @@ p, a {
 .button.arrow {
   width: 3rem;
   height: 3rem;
-  color: #fff;
+  color: black;
   cursor: pointer;
   background-color: #121218;
   border-radius: 100%;
@@ -635,17 +635,17 @@ p, a {
 }
 
 .icon {
-  color: #fff;
+  color: black;
   margin-right: 20px;
 }
 
 .dropdown {
-  color: #fff;
+  color: black;
   line-height: 1;
 }
 
 .body-2 {
-  background-color: #000;
+  background-color: #FFF3DC;
   font-family: 'Wolfers', sans-serif;
 }
 
@@ -728,7 +728,7 @@ p, a {
 }
 
 .hero-subtitle {
-  color: #fff;
+  color: black;
   text-align: center;
   margin-top: 1.25rem;
   margin-bottom: 0;
@@ -811,7 +811,7 @@ p, a {
 
 .product-title._2 {
   z-index: 2;
-  color: #fff;
+  color: black;
   text-align: center;
   margin-top: 6vw;
   position: relative;
@@ -868,7 +868,7 @@ p, a {
 }
 
 .investor-section {
-  color: #fff;
+  color: black;
   text-align: center;
   text-transform: uppercase;
   margin-top: 0;
@@ -883,7 +883,7 @@ p, a {
 }
 
 .section-heading {
-  color: #fff;
+  color: black;
   text-align: center;
   text-transform: uppercase;
   margin-top: 0;
@@ -923,7 +923,7 @@ p, a {
 }
 
 .slider-number {
-  color: #fff;
+  color: black;
   letter-spacing: 1.5px;
   margin-left: 3rem;
   font-size: .75rem;
@@ -968,7 +968,7 @@ p, a {
 .progress-bar {
   width: 61%;
   height: .25rem;
-  background-color: #fff;
+  background-color: black;
   border-radius: 2px;
   position: absolute;
   top: 0%;
@@ -1019,7 +1019,7 @@ p, a {
 }
 
 .nav-link-3:hover {
-  color: #fff;
+  color: black;
 }
 
 .nav-link-3.footer {
@@ -1032,7 +1032,7 @@ p, a {
 }
 
 .nav-link-3.footer:hover {
-  color: #fff;
+  color: black;
 }
 
 .product-maquee {
@@ -1077,6 +1077,7 @@ p, a {
   padding-bottom: 2vw;
   position: relative;
   overflow: hidden;
+  margin-top: -3rem;
 
 }
 .bghead {
@@ -1092,7 +1093,7 @@ p, a {
 }
 
 .investor-name {
-  color: #fff;
+  color: black;
   text-align: center;
   font-size: .875rem;
 }
@@ -1357,7 +1358,7 @@ p, a {
 }
 
 .product-section {
-  color: #fff;
+  color: black;
   text-align: center;
   margin-top: 10vw;
   margin-bottom: .6rem;
@@ -1384,7 +1385,7 @@ p, a {
 }
 
 .hero-heading {
-  color: #fff;
+  color: black;
   text-align: center;
   text-transform: uppercase;
   font-family: 'Wolfers', sans-serif;
@@ -1419,7 +1420,7 @@ p, a {
 }
 
 .product-info-text.figure {
-  color: #fff;
+  color: black;
   text-transform: uppercase;
   font-size: .875rem;
 }
@@ -1496,9 +1497,9 @@ p, a {
 }
 
 .text-block-8 {
-  color: #fff;
+  color: black;
   font-family: 'Wolfers', sans-serif;
-  font-size: 1.5vw;
+  font-size: 1.8vw;
 }
 
 .text-size-medium {
@@ -1558,7 +1559,7 @@ p, a {
 }
 
 .text-color-yellow {
-  color: #fff;
+  color: black;
   margin-top: -40px;
   margin-bottom: 0;
   font-family: 'Wolfers', sans-serif;
@@ -1709,7 +1710,7 @@ p, a {
 }
 
 .padding-global {
-  color: #fff;
+  color: black;
   background-color: #ff9d00;
   padding-left: 0;
   padding-right: 0;
@@ -1854,7 +1855,7 @@ p, a {
 }
 
 .text-block-9 {
-  color: #fff;
+  color: black;
   margin-top: 11vw;
   font-family: 'Wolfers', sans-serif;
 }
@@ -1910,7 +1911,7 @@ p, a {
 }
 
 .text-block-10 {
-  color: #fff;
+  color: black;
   margin-top: 2vw;
   font-family: 'Wolfers', sans-serif;
   font-size: 1.4vw;
@@ -1919,7 +1920,7 @@ p, a {
 }
 
 .paragraph {
-  color: #fff;
+  color: black;
   text-transform: uppercase;
 }
 
@@ -1961,7 +1962,7 @@ p, a {
 }
 
 .text-block-12 {
-  color: #fff;
+  color: black;
   margin-top: 2vw;
   font-family: 'Wolfers', sans-serif;
   font-size: 2vw;
@@ -1979,9 +1980,9 @@ p, a {
 }
 
 .text-block-13 {
-  color: #fff;
+  color: black;
   text-align: center;
-  -webkit-text-stroke-color: #fff;
+  -webkit-text-stroke-color: black;
   margin-top: 2vw;
   font-family: 'Wolfers', sans-serif;
   font-size: 2vw;
@@ -2013,7 +2014,7 @@ p, a {
 }
 
 .body-4 {
-  color: #fff;
+  color: black;
   background-color: #000;
 }
 
@@ -2170,14 +2171,14 @@ p, a {
 }
 
 .text-block-17 {
-  color: #fff;
+  color: black;
   font-size: 6vw;
   font-weight: 700;
   line-height: 100%;
 }
 
 .text-block-18 {
-  color: #fff;
+  color: black;
   text-align: center;
   margin-top: 2vw;
   font-size: 1.5vw;
@@ -2186,7 +2187,7 @@ p, a {
 
 .text-block-19 {
   z-index: 1;
-  color: #fff;
+  color: black;
   text-transform: uppercase;
   margin-top: 1vw;
   font-size: 1.2vw;
@@ -2220,7 +2221,7 @@ p, a {
 }
 
 .div-block-18 {
-  color: #fff;
+  color: black;
   border: 1px solid #18ce67;
   border-radius: 6px;
   padding: 15px 5vw;
@@ -2262,7 +2263,7 @@ p, a {
 }
 
 .text-block-21 {
-  color: #fff;
+  color: black;
   text-transform: uppercase;
   font-size: 1.4vw;
   line-height: 100%;
@@ -2328,7 +2329,7 @@ p, a {
 }
 
 .nav-link-4 {
-  color: rgba(255, 255, 255, .52);
+  color: rgba(0, 0, 0, 0.52);
   text-transform: uppercase;
   margin-right: 2vw;
   padding: 0;
@@ -2337,11 +2338,11 @@ p, a {
 }
 
 .nav-link-4:hover {
-  color: #fff;
+  color: #000000;
 }
 
 .nav-link-4.w--current {
-  color: #858585;
+  color: #000000;
 }
 
 @media screen and (max-width: 991px) {
@@ -3157,7 +3158,7 @@ p, a {
   }
 
   .text-block-22 {
-    color: #fff;
+    color: black;
   }
 
   .navbar-2 {
@@ -3194,7 +3195,7 @@ p, a {
   }
 
   .icon-3 {
-    color: #fff;
+    color: black;
   }
 
   .menu-button-2, .menu-button-2.w--open {
