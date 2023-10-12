@@ -12,7 +12,7 @@
   <link href="css/webflow.css" rel="stylesheet" type="text/css">
   <link href="css/garycoin.webflow.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.cdnfonts.com/css/nuku-nuku" rel="stylesheet">
-                
+  <script src="https://cdn.jsdelivr.net/clipboard.js/1.5.12/clipboard.min.js"></script>          
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous">
   <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
@@ -66,6 +66,68 @@ display:none! important;
     background-color: rgb(114, 157, 237);
     box-shadow: rgb(114 157 237) 8px 16px 120px;
 }
+}
+</style>
+<style>
+  .tooltipped {
+  position: relative
+}
+.tooltipped:after {
+  position: absolute;
+  z-index: 1000000;
+  display: none;
+  padding: 5px 8px;
+  color: #fff;
+  font-family: 'Wolfers', sans-serif !important;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: none;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: break-word;
+  white-space: pre;
+  pointer-events: none;
+  content: attr(aria-label);
+  background: rgba(0,0,0,0.8);
+  border-radius: 3px;
+  -webkit-font-smoothing: subpixel-antialiased
+} 
+
+.tooltipped:before {
+  position: absolute;
+  z-index: 1000001;
+  display: none;
+  width: 0;
+  height: 0;
+  color: rgba(0,0,0,0.8);
+  pointer-events: none;
+  content: "";
+  border: 5px solid transparent
+}
+
+.tooltipped:hover:before,.tooltipped:hover:after,.tooltipped:active:before,.tooltipped:active:after,.tooltipped:focus:before,.tooltipped:focus:after {
+  display: inline-block;
+  text-decoration: none
+}
+
+.tooltipped-s:after {
+  top: 100%;
+  right: 50%;
+  margin-top: 5px
+}
+
+.tooltipped-s:before {
+  top: auto;
+  right: 50%;
+  bottom: -5px;
+  margin-right: -5px;
+  border-bottom-color: rgba(0,0,0,0.8)
+}
+
+.tooltipped-s:after {
+  -webkit-transform: translateX(50%);
+  -ms-transform: translateX(50%);
+  transform: translateX(50%)
 }
 </style>
     <script>
@@ -186,6 +248,46 @@ if (window.innerWidth <= 768) {
 }
 });
 </script>
+<script>
+  var clipboard = new Clipboard('.btn');
+
+var btns = document.querySelectorAll('.btn');
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener('mouseleave', function(e) {
+    e.currentTarget.setAttribute('class', 'btn');
+    e.currentTarget.removeAttribute('aria-label');
+  });
+}
+clipboard.on('success', function(e) {
+  console.info('Action:', e.action);
+  console.info('Text:', e.text);
+  console.info('Trigger:', e.trigger);
+  showTooltip(e.trigger,'Copied!');
+  e.clearSelection();
+});
+
+clipboard.on('error', function(e) {
+  console.error('Action:', e.action);
+  console.error('Trigger:', e.trigger);
+  showTooltip(e.trigger,fallbackMessage(e.action));
+});
+function showTooltip(elem, msg) {
+  elem.setAttribute('class', 'btn tooltipped tooltipped-s');
+  elem.setAttribute('aria-label', msg);
+}
+function fallbackMessage(action) {
+  var actionMsg = '';
+  var actionKey = (action === 'cut' ? 'X' : 'C');
+  if (/iPhone|iPad/i.test(navigator.userAgent)) {
+    actionMsg = 'No support :(';
+  } else if (/Mac/i.test(navigator.userAgent)) {
+    actionMsg = 'Press ⌘-' + actionKey + ' to ' + action;
+  } else {
+    actionMsg = 'Press Ctrl-' + actionKey + ' to ' + action;
+  }
+  return actionMsg;
+}
+</script>
   </div>
   <div style="background-color: #F15B44;" data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="navbar-2 w-nav">
     <div class="div-block-22">
@@ -277,9 +379,18 @@ if (window.innerWidth <= 768) {
 
 </a>
      </div><br><br>
-     <p style="color:  #FFF3DC; font-size: 30px;  text-align: center; margin:  0 auto; " >
-    CA:  0x9944EB95B38d945Eeeb7539B06f9b84F8Fa1058E
-    </p>
+
+     <div style="display: flex; width: fit-content; margin: 0 auto; padding: 0px; flex-direction: row; justify-content:flex-start; align-items: center;" >
+                              <p style="color:  #FFF3DC; font-size: 30px;  text-align: center; margin:  0 auto; " >
+                              C A : <strong>0x9944EB95B38d945Eeeb7539B06f9b84F8Fa1058E</strong>  
+                              </p>
+                              <div style="width: 13px;" >
+
+                              </div>
+                              <button style="background-color: #F15B44; align-items: center; justify-content: center; font-size: 18px; color: black; border: solid 0px black !important; border-radius: 19px;" class="btn " data-clipboard-text="0x9944EB95B38d945Eeeb7539B06f9b84F8Fa1058E" aria-label="Copied!">
+                               <img src="./copy.png" style="height:auto; width: 20px;" alt="">
+                              </button>
+     </div>
     </section>
     
   </div>
